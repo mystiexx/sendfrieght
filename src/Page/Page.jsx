@@ -35,7 +35,7 @@ const arr = [
 const Home = () => {
     const [active, setActive] = useState("Dimensions");
     return (
-        <div className='Body'>
+        <div>
             <div style={{ display: 'flex'}}>
                 <div style={{ marginTop:'20px'}}>
             <BsArrowLeftShort size={40} />
