@@ -44,6 +44,7 @@
 .NavBar .Btn {
     margin-left: 200px;
     border: 1px solid red;
+    display: flex;
 }
 
 .NavBar .Btn button:nth-child(1) {
