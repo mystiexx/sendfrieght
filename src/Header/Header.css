@@ -1,0 +1,64 @@
+.NavBar {
+    width: 100%;
+}
+
+.NavBar header {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    background-color: #0746a7;
+    align-items: center;
+}
+
+.NavBar header h3 {
+    color: white;
+    margin-left: 10px;
+}
+
+.NavBar .input-field {
+    margin-left: 150px;
+    background-color: #386bb9;
+    padding: 5px;
+
+}
+
+.NavBar .input-field input {
+    outline: none;
+    background: none;
+    border: none;
+    width: 450px;
+    height: 35px;
+    color: white;
+}
+
+.NavBar .input-field input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.NavBar .Btn {
+    margin-left: 300px;
+}
+
+.NavBar .Btn button:nth-child(1) {
+    width: 169px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    margin-right: 40px;
+    color: white;
+}
+
+.NavBar .Btn button:nth-child(2) {
+    width: 169px;
+    height: 38px;
+    border: none;
+    box-sizing: border-box;
+    background: #5EC687;
+    outline: none;
+    margin-right: 40px;
+    color: white;
+}
