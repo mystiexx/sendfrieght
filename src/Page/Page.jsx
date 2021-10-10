@@ -37,8 +37,8 @@ const Home = () => {
     const [active, setActive] = useState("Dimensions");
     return (
         <div className='Body'>
-            <div style={{ border:'1px solid green'}}>
-            <Top/>
+              <Top/>
+            <div style={{ marginLeft:'80px', marginRight:'85px', marginTop: '40px'}}>
                 {/* service box */}
                 <div className="box">
                     <h5> Select a service</h5>
@@ -84,13 +84,13 @@ const Home = () => {
                             <input type="date" placeholder="Ready Date" />
                         </div>
 
-                        <div className="input-field" style={{ marginLeft: "50px" }}>
+                        <div className="input-field" style={{ marginLeft: "10px" }}>
                             <select>
                                 <option>incoterms</option>
                             </select>
                         </div>
 
-                        <div className="input-field" style={{ marginLeft: "10px" }}>
+                        <div className="input-field" style={{ marginLeft: "10px", width:'auto' }}>
                             <input type="text" placeholder="Total Cargo Value" />
                         </div>
                     </div>
