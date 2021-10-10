@@ -4,7 +4,7 @@ import  './Layout.css'
 import Header from '../Header/Header'
 
 const Layout = ( props ) => (
-    <Aux className='Content'>
+    <Aux>
         <Header/>
         <main className='Content'>{props.children}</main>
     </Aux>

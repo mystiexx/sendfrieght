@@ -8,6 +8,7 @@ import CustomInput from "../components/CustomInput/CustomInput";
 import { FaTruck } from 'react-icons/fa'
 import { RiShipFill } from 'react-icons/ri'
 import { GiPoliceOfficerHead } from 'react-icons/gi'
+import Top from "./Top";
 
 const arr = [
     {
@@ -35,17 +36,11 @@ const arr = [
 const Home = () => {
     const [active, setActive] = useState("Dimensions");
     return (
-        <div style={{border:'1px solid green'}}>
-            <div style={{ display: 'flex'}}>
-                <div style={{ marginTop:'20px'}}>
-            <BsArrowLeftShort size={40} />
-            </div>
-            <div style={{ marginRight:'50px', marginLeft:'40px'}}>
-                <h4>New Booking </h4>
-                <p className='text'> Fill in the information below to get a quote or create a new booking</p>
-
+        <div className='Body'>
+            <div style={{ border:'1px solid green'}}>
+            <Top/>
                 {/* service box */}
-                <div className="box" style={{ marginTop: '60px'}}>
+                <div className="box">
                     <h5> Select a service</h5>
                     <div className="frame">
                         {arr.map((data) => (
@@ -200,7 +195,6 @@ const Home = () => {
                 </div>
             </div>
             </div>
-        </div>
     );
 };
 
